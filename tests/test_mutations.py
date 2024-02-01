@@ -7,7 +7,7 @@ class MutationsTest(unittest.TestCase):
         """
         Set up the test environment by initializing the HashnodeClient with a specific token.
         """
-        self.client = HashnodeClient(token="4c706f7c-81bf-4c56-accb-155e68e7ad0a")
+        self.client = HashnodeClient(token="<YOUR_TOKEN_HERE>")
 
     def test_publish_post(self):
         """
