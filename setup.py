@@ -1,16 +1,11 @@
 import setuptools
 
-
 about = {}
 with open("hashnode_py/__about__.py") as fp:
     exec(fp.read(), about)
 
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
-with open('requirements.txt') as req_file:
-    requirements = req_file.read().splitlines()
 
 setuptools.setup(
     name=about['__title__'],
@@ -33,7 +28,7 @@ setuptools.setup(
     dev_requires=[
         "pytest>=8.0", "twine>=4.0.2"
     ],
-    install_requires = [
+    install_requires=[
         "requests>=2.31.0",
         "gql>=3.5.0"
     ]
