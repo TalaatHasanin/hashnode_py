@@ -24,7 +24,6 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    install_requires=requirements,
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -33,5 +32,9 @@ setuptools.setup(
     python_requires=">=3.11",
     dev_requires=[
         "pytest>=8.0", "twine>=4.0.2"
+    ],
+    install_requires = [
+        "requests>=2.31.0",
+        "gql>=3.5.0"
     ]
 )

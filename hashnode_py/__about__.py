@@ -1,6 +1,6 @@
 __title__ = 'hashnode_py'
 __package_name__ = 'hashnode_py'
-__version__ = '0.0.1'
+__version__ = '0.0.10'
 __description__ = "Hashnode_Py, The python client to interact with hashnode graphql api"
 __email__ = "talaat049@gmail.com"
 __author__ = 'Talaat Hasanin'
