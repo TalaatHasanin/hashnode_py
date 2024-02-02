@@ -12,8 +12,13 @@
 
 ## Installation
 
-Install hashnode_py with pip
+**Install hashnode_py with pip**
 
+First Install Dependencies:
+```bash
+  pip install gql requests requests-toolbelt
+  ```
+Then download the package
 ```bash
   pip install hashnode-py
 ```
