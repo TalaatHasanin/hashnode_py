@@ -15,7 +15,7 @@
 Install hashnode_py with pip
 
 ```bash
-  pip install hashnode_py
+  pip install hashnode-py
 ```
     
 ## Usage/Examples

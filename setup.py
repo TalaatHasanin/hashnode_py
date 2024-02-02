@@ -4,6 +4,9 @@ about = {}
 with open("hashnode_py/__about__.py") as fp:
     exec(fp.read(), about)
 
+with open("requirements.txt") as f:
+    requirements = f.read().splitlines()
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -11,7 +14,6 @@ setuptools.setup(
     name=about['__title__'],
     version=about['__version__'],
     url=about['__github__'],
-    download_url=about['__pypi__'],
     license=about['__license__'],
     author=about['__author__'],
     author_email=about['__email__'],
@@ -28,8 +30,5 @@ setuptools.setup(
     dev_requires=[
         "pytest>=8.0", "twine>=4.0.2"
     ],
-    install_requires=[
-        "requests>=2.31.0",
-        "gql>=3.5.0"
-    ]
+    requires=requirements
 )
