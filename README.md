@@ -1,7 +1,7 @@
 
 # Hashnode_Py
 
-**hashnode_py** is a Python package designed to interact with the Hashnode GraphQL API. With this library, you have the ability to publish, update, or delete your articles and drafts. Additionally, it offers various functionalities to seamlessly interact with your publication directly from your code.
+**hashnode_py** is a Python package designed to interact with the Hashnode GraphQL API. With this package, you have the ability to publish, update, or delete your articles and drafts. Additionally, it offers various functionalities to seamlessly interact with your publication directly from your code.
 
 ## Features
 
